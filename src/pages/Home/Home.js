@@ -1,6 +1,6 @@
 import classes from "./Home.module.css";
 
-const Accueil = () => {
+const Home = () => {
 
     return (
         <main id="app">
@@ -19,4 +19,4 @@ const Accueil = () => {
     );
 }
 
-export default Accueil;
+export default Home;
