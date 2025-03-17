@@ -16,7 +16,7 @@ const AuthForm = () => {
         promise.then((test) => {console.log(test);
             navigate('/movies');});
         promise.catch(error => console.log(error));
-        
+        // Rafraichir la page ensuite
     }
 
     return (
