@@ -6,11 +6,13 @@ import Footer from "./components/Footer/Footer";
 import Home from "./pages/Home/Home";
 import Movies from "./pages/Movies/Movies";
 import AuthForm from './pages/AuthForm/AuthForm';
+import MovieForm from './pages/Ajouter/Ajouter';
 import RegisterForm from './pages/RegisterForm/RegisterForm';
 
 import { Routes, Route, useParams, Navigate, useLocation } from "react-router-dom";
 
 function App() {
+
 
   return (
     <>
@@ -19,6 +21,7 @@ function App() {
           <Routes>
             <Route path="/" element={<Home/>}/>
             <Route path="/movies" element={<Movies/>}/>
+            <Route path="/movieForm" element={<MovieForm/>}/>
             <Route path="/authForm" element={<AuthForm/>}/>
             <Route path="/registerForm" element={<RegisterForm/>}/>
           </Routes>

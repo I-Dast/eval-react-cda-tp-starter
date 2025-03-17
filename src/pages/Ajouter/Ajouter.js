@@ -26,3 +26,5 @@ const MovieForm = () => {
         </div>
     );
 }
+
+export default MovieForm;
